@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* em html  tudo que for "id" fica como "#" em css
+e tudo que for "class" fica como um "." */ 
+
+body {
+    background-color:rgb(205,255,203) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4,109,0);
+    color: white ;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+}
+
+h2 {
+    color:#3c805e;
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario{
+    color: #80793c;
+}
+
+.avancado{ 
+    color: #803c3c;
+}
+
+.destaque{ 
+    background-color: #c5c56070;
+}
